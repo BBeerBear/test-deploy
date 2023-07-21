@@ -4,7 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-mybg bg-no-repeat bg-cover bg-center;
-  @apply text-center mx-auto text-white font-extrabold;
+@layer base {
+  body {
+    @apply bg-mybg bg-no-repeat bg-cover bg-center;
+    @apply text-center mx-auto text-white font-extrabold;
+  }
 }
